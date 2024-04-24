@@ -37,7 +37,7 @@ def calculate_angular_momentum(part_pos, part_vel, part_mass, origin):
     Mstar = np.sum(mass)
     dvVmass = np.sum(mass[:, np.newaxis] * vel, axis=0) / Mstar
     vel -= dvVmass # correct for bulk velocity
-
+    print('test')
     # Compute momentum within 5 kpc region
     extract = distancesDATA < 5.0
     smomentum_inner_5kpc = np.cross(pos[extract,:], vel[extract, :])
