@@ -1,4 +1,4 @@
-astropy
+astropy==5.2rc1
 h5py
 matplotlib
 numpy
@@ -8,6 +8,6 @@ jinja2
 numba
 pyyaml
 tqdm
-swiftsimio==4.9.0
-swiftascmaps==1.2.2
+swiftsimio==7.0.1
+swiftascmaps==1.5.0
 velociraptor
